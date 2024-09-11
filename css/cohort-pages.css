@@ -27,6 +27,9 @@
     justify-content: center;
     margin-top: 4rem;
 }
+.startup-list a{
+    color: #000;
+}
 .startup-list .startup-card{
     width: 100%;
 }
@@ -38,7 +41,7 @@
     padding: 2rem;
     border-top: 1px solid #6a6868;
     transition: all ease-in-out .5s;
-    cursor:auto;
+    cursor:pointer;
     user-select: none;
 }
 .startup-card:hover{
@@ -59,6 +62,30 @@
 }
 .card-r p{
     font-size: 1.2rem;
+}
+
+.cohort-5-button{
+    margin-top: .6rem;
+    padding: 4px 10px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transition: all ease-in-out .4s;
+}
+.cohort-5-button h4{
+    font-size: 1.4rem;
+}
+.cohort-5-button i{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.startup-card:hover .cohort-5-button{
+    background-color: #1d0a51;
+    color: #fff;
+    transition: all ease-in-out .4s;
 }
 
 .cohort-nav{
