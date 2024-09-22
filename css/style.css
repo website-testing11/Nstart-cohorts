@@ -206,11 +206,12 @@ body{
 }
 
 .card__description {
-  padding-bottom: 2.2rem;
-  padding-left: 1rem;
+  padding-bottom: .8rem;
+  padding-left: 2rem;
   padding-right: 1rem;
-  padding-top: -2px;
+  padding-top: -6px;
   margin: 0;
+  font-weight: 500;
   color: #000;
   display: -webkit-box;
   -webkit-box-orient: vertical;
