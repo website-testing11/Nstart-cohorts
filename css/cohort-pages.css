@@ -44,6 +44,9 @@
     cursor:pointer;
     user-select: none;
 }
+.startup-card:nth-last-child(1){
+    border-bottom: 1px solid #6a6868;
+}
 .startup-card:hover{
     background-color: rgba(224, 231, 245, 0.816);
     transition: all ease-in-out .5s;

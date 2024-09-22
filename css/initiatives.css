@@ -180,17 +180,74 @@ body{
   font-size: 12px;
 }
 
-footer {
-  padding: 16px;
-  margin-left: auto;
-  margin-top: auto;
 
-  a {
-    font-weight: bold;
-    color: black;
-  }
+footer .join-bar{
+  background-color: #1F0A57;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 6rem;
+  height: 14rem;
+  margin-top: 6rem;
+}
+footer .join-bar h2{
+  font-size: 2rem;
+  color: #fff;
+}
+footer .join-bar h2 span{
+  color: #00FF84 ;
 }
 
+.join-bar .join-button button{
+  font-size: 16px;
+    font-weight: 500;
+    line-height: 56px;
+    fill: #1A064F;
+    color: #1A064F;
+    background-color: #00FF84;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #00FF84;
+    border-radius: 30px 30px 30px 30px;
+    padding: 0px 50px 0px 50px;
+    cursor: pointer;
+}
+
+.footer-main{
+  background-color: #140342;
+  padding: 4rem 6rem;
+}
+.footer-top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-main .footer-logo img{
+  height: 4rem;
+}
+
+.footer-socials ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-socials ul a li{
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+  font-size: 1.8rem;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+}
 
 @media(max-width:1200px){
   .initiatives-container{
@@ -231,6 +288,40 @@ footer {
   .heading1 p {
     width: 100%;
     font-size: 14px;
+  }
+}
+
+@media(max-width: 500px){
+  .navbar {
+    padding: 1rem;
+  } 
+  .navbar .logo{
+    height: 4.5rem;
+    padding: 1rem 1rem;
+  }
+  footer .join-bar{
+    text-align: center;
+    flex-direction: column;
+    padding: 2rem 0;
+    height: 14rem;
+  }
+  footer .join-bar h2{
+    font-size: 6vw;
+  }
+  .footer-main .footer-logo img {
+    height: 5.6rem;
+  }
+  .footer-top{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-socials {
+    margin-top: 1rem;
+  }
+  .footer-socials ul a li{
+    font-size: 1.3rem;
+    height: 2.8rem;
+    width: 2.8rem;
   }
 }
 
