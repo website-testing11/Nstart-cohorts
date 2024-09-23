@@ -116,13 +116,36 @@ body{
   overflow: hidden;
 }
 
-.image {
-  background-image: url("../images/img-1.jpg");
+.image{
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+}
+.initiatives-container .container:nth-child(1) .image{
+  background-image: url("../images/c6.jpg");
+}
+.initiatives-container .container:nth-child(2) .image{
+  background-image: url("../images/c2.jpg");
+}
+.initiatives-container .container:nth-child(3) .image{
+  background-image: url("../images/c8.jpg");
+}
+.initiatives-container .container:nth-child(4) .image{
+  background-image: url("../images/c9.jpg");
+}
+.initiatives-container .container:nth-child(5) .image{
+  background-image: url("../images/c7.jpg");
+}
+.initiatives-container .container:nth-child(6) .image{
+  background-image: url("../images/c3.jpg");
+}
+.initiatives-container .container:nth-child(7) .image{
+  background-image: url("../images/c5.jpg");
+}
+.initiatives-container .container:nth-child(8) .image{
+  background-image: url("../images/c4.jpg");
 }
 
 .tag {

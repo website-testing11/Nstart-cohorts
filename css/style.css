@@ -459,6 +459,25 @@ footer .join-bar h2 span{
   margin: 1.2rem;
 }
 
+@media(max-width:1400px){
+  .highlight-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width:870px){
+  .highlight-container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .highlight-container .card {
+    height: 66vw;
+    width: 82vw;
+  }
+  .highlight-card .card__title {
+    font-size: 1.2rem;
+  }
+}
 /* --------------Voice of NMS page css---------------- */
 
 
