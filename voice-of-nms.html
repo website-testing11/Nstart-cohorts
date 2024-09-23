@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nstart - Voice Of NMS</title>
+    <!-- <link rel="stylesheet" href="./css/initiatives.css"> -->
+     <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="./images/nstart-fevicon.jpg">
+    <style>
+        .voice-cover-img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+       .voice-cover-img img{
+            height: 90vh;
+            border-radius: .6rem;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+       }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img class="logo" src="./images/nstart-logo.png" alt="">
+    </div>
+    
+    <div class="main">
+        <!-- <div class="heading1">
+            <h1>Voice Of NMS.</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente recusandae numquam labore eum temporibus sunt inventore dignissimos ducimus. Eum adipisci dolore a illo sapiente velit dolor? Dolore, ab rerum. Distinctio?</p>
+        </div> -->
+        <!-- ------------------------------------------- -->
+        <div class="heading1" style="margin-top: 2rem;">
+            <h1>What is Voice of NMS?</h1>
+            <p style="width: 70%; margin-bottom: 2rem;">At Neerja Modi School, we believe in nurturing the leaders of tomorrow through a balanced blend of academics, creativity, and real-world experiences. Our students are empowered to explore their passions, think critically, and develop a sense of responsibility towards society. With state-of-the-art facilities and a dedicated faculty, NMS provides an environment that fosters innovation, collaboration, and personal growth. Whether in the classroom or beyond, our focus remains on helping each student reach their full potential and contribute meaningfully to the world around them.</p>
+        </div>
+        <!-- ------------------------------------------- -->
+        <div class="voice-cover-img">
+            <img src="./images/voice-of-nms-cover-img.jpg" alt="">
+        </div>
+        <!-- ------------------------------------------- -->
+        <div class="heading1" style="margin-top: 2rem;">
+            <h1>Our Latest Podcasts</h1>
+            <p style="width: 60%;margin-bottom: 2rem;">
+                our podcast, where we bring you insightful conversations with experts, innovators, and thought leaders. Tune in for inspiring stories, valuable advice, and fresh perspectives on the topics that matter most!
+            </p>
+        </div>
+        <div class="voice-container">
+            <div class="top-slider">
+                <button class="slider-arrow left" aria-label="Previous slide">&lt;</button>
+                <button class="slider-arrow right" aria-label="Next slide">&gt;</button>
+                <div class="slides">
+                    <div class="slide welcome-slide">
+                        <h2>Podcast One</h2>
+                        <p>Ready to play?</p>
+                    </div>
+                    <div class="slide rewards-slide">
+                        <h2>Podcast Two</h2>
+                        <p>BONUS UP TO <span>45%!</span></p>
+                    </div>
+                    <div class="slide affiliate-slide">
+                        <h2>Podcast Three</h2>
+                        <p>Earn while you play!</p>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <span class="slider-dot active"></span>
+                    <span class="slider-dot"></span>
+                    <span class="slider-dot"></span>
+                </div>
+            </div>
+            <div class="heading1" style="margin-top: 2rem;">
+                <h1>What we do?</h1>
+                <p style="width: 60%;margin-bottom: 2rem;">
+                    Voice of NMS is a podcast dedicated to showcasing the stories and insights of entrepreneurs, innovators, and leaders from the NMS community. We dive deep into their journeys, exploring the challenges, successes, and future trends shaping the business world.
+                </p>
+            </div>
+            <div class="game-options">
+                <div class="option">
+                    <img src="./images/podcast-icon.png" alt="">
+                    <p>Podcast</p>
+                </div>
+                <div class="option">
+                    <img src="./images/interview-icon.png" alt="">
+                    <p>Street Interviews</p>
+                </div>
+                <div class="option">
+                    <img src="./images/monolog-icon.png" alt="">
+                    <p>Monolouges</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+      <div class="join-bar">
+          <div>
+              <h2>
+                More than <span>80 + Startups</span> <br>
+                <span>Incubated</span> in Jaipur.
+              </h2>
+          </div>
+          <div class="join-button">
+              <button>Join Now</button>
+          </div>
+       </div>
+
+       <div class="footer-main">
+          <div class="footer-top">
+            <div class="footer-logo">
+              <img src="./images/nstart-logo.png" alt="">
+            </div>
+            <div class="footer-socials">
+              <ul>
+                <a href=""><li><i class='bx bxl-instagram'></i></li></a>
+                <a href=""><li><i class='bx bxl-facebook-circle' ></i></li></a>
+                <a href=""><li><i class='bx bxl-twitter' ></i></li></a>
+                <a href=""> <li><i class='bx bxl-linkedin' ></i></li></a>
+              </ul>
+            </div>
+          </div>
+          <div>
+
+          </div>
+       </div>
+  </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const slides = document.querySelector('.slides');
+        const dots = document.querySelectorAll('.slider-dot');
+        const leftArrow = document.querySelector('.slider-arrow.left');
+        const rightArrow = document.querySelector('.slider-arrow.right');
+        let currentSlide = 0;
+        let startX;
+        let scrollLeft;
+        let isDown = false;
+    
+        function showSlide(index) {
+            slides.style.transform = `translateX(-${index * 100}%)`;
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === index);
+            });
+        }
+    
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % 3;
+            showSlide(currentSlide);
+        }
+    
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + 3) % 3;
+            showSlide(currentSlide);
+        }
+    
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSlide = index;
+                showSlide(currentSlide);
+            });
+        });
+    
+        leftArrow.addEventListener('click', prevSlide);
+        rightArrow.addEventListener('click', nextSlide);
+    
+        slides.addEventListener('mousedown', (e) => {
+            isDown = true;
+            startX = e.pageX - slides.offsetLeft;
+            scrollLeft = slides.scrollLeft;
+        });
+    
+        slides.addEventListener('mouseleave', () => {
+            isDown = false;
+        });
+    
+        slides.addEventListener('mouseup', () => {
+            isDown = false;
+        });
+    
+        slides.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - slides.offsetLeft;
+            const walk = (x - startX) * 3;
+            if (walk < -100) {
+                nextSlide();
+                isDown = false;
+            } else if (walk > 100) {
+                prevSlide();
+                isDown = false;
+            }
+        });
+    
+        let autoSlideInterval = setInterval(nextSlide, 5000);
+    
+        slides.addEventListener('mouseenter', () => {
+            clearInterval(autoSlideInterval);
+        });
+    
+        slides.addEventListener('mouseleave', () => {
+            autoSlideInterval = setInterval(nextSlide, 5000);
+        });
+    
+        const options = document.querySelectorAll('.option');
+        options.forEach(option => {
+            option.addEventListener('mouseenter', () => {
+                option.style.transform = 'translateY(-5px)';
+            });
+            option.addEventListener('mouseleave', () => {
+                option.style.transform = 'translateY(0)';
+            });
+        });
+    });
+    </script>
+</body>
+</html>
