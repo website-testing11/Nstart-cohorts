@@ -718,6 +718,18 @@ footer .join-bar h2 span{
   }
 }
 
+@media(max-width:920px){
+  .heading1 p {
+    width: 90%!important;
+  }
+}
+
+@media(max-width:720px){
+  .voice-cover-img img {
+    width: 80vw;
+  }
+}
+
 
 /* --------------------------------------------------- */
 
