@@ -232,10 +232,10 @@ body{
 }
 
 .card__description {
-  padding-bottom: .8rem;
+  padding-bottom: 1.8rem;
   padding-left: 2rem;
   padding-right: 1rem;
-  padding-top: -6px;
+  padding-top: -12px;
   margin: 0;
   font-weight: 500;
   color: #000;
