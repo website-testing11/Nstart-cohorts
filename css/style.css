@@ -759,6 +759,9 @@ footer .join-bar h2 span{
 }
 
 @media(max-width:860px){
+  body{ 
+    user-select: none; /* Standard syntax */
+  }
   .column-reverse{
     flex-direction: column-reverse;
   }
@@ -816,6 +819,11 @@ footer .join-bar h2 span{
     top: 15px;
     left: -35px;
   }
+  
+  .card__description {
+    font-size:14px;
+    height: 10rem;
+  }   
 }
 
 @media(max-width:760px){
